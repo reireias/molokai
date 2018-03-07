@@ -3,6 +3,7 @@
 This is a fork of [tomasr/molokai](https://github.com/tomasr/molokai) with the following changes:
 
 * `LineNr` color background is matched to `Normal`
+* Revert `MatchParen` color changes for better readability ([pr](https://github.com/tomasr/molokai/pull/44))
 
 
 ## Installation
