@@ -1,15 +1,9 @@
 # Molokai Color Scheme for Vim
 
-Molokai is a Vim port of the monokai theme for TextMate originally created by
-Wimer Hazenberg. 
-
-This is a fork with the following changes:
+This is a fork of [tomasr/molokai](https://github.com/tomasr/molokai) with the following changes:
 
 * `LineNr` color background is matched to `Normal`
 
-256-Color terminals are also supported, though there are some differences with
-the Gui version. Only the dark gray background style is supported on terminal
-vim at this time.
 
 ## Installation
 
@@ -19,9 +13,9 @@ Use a plugin manager, i.e:
   * `Plug 'fatih/molokai'`
 
 
-Copy the file on your .vim/colors folder.
+or copy the file on your .vim/colors folder.
 
-## Setting
+## Settings
 
 If you prefer the scheme to match the original monokai background color, put this in your .vimrc file: 
 ```
@@ -35,3 +29,11 @@ attempts to bring the 256 color version as close as possible to the the default
 let g:rehash256 = 1
 ```
 
+## Original Description
+
+Molokai is a Vim port of the monokai theme for TextMate originally created by
+Wimer Hazenberg. 
+
+256-Color terminals are also supported, though there are some differences with
+the Gui version. Only the dark gray background style is supported on terminal
+vim at this time.
