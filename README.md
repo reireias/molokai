@@ -4,6 +4,8 @@ This is a fork of [tomasr/molokai](https://github.com/tomasr/molokai) with the f
 
 * `LineNr` color background is matched to `Normal`
 * Revert `MatchParen` color changes for better readability ([pr](https://github.com/tomasr/molokai/pull/44))
+* `VertSplit` line is dimmed and `set fillchars+=vert:│` has been set to remove the dashed vertical split line
+
 
 
 ## Installation
